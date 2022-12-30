@@ -38,6 +38,7 @@ Overview of provided channels
 | tempincomingbeforeheating | A_CYC_TEMP_SUPPLY_CELL_AIR  | Incoming air temp (pre heating)   |r | Number (°C)          |
 | tempincoming              | A_CYC_TEMP_SUPPLY_AIR       | Incoming air temp                 |r | Number (°C)          |
 | humidity                  | A_CYC_RH_VALUE              | Extracted air humidity            |r | 0 - 100 (%)          |
+| carbondioxide             | A_CYC_CO2_VALUE             | Extracted air carbondioxide       |r | Number (ppm)         |
 | cellstate                 | A_CYC_CELL_STATE            | Current cell state                |r | 0=heat recovery, 1=cool recovery, 2=bypass, 3=defrosting          |
 | uptimeyears               | A_CYC_TOTAL_UP_TIME_YEARS   | Total uptime years                |r | Y                    |
 | uptimehours               | A_CYC_TOTAL_UP_TIME_HOURS   | Total uptime hours                |r | h                    |
